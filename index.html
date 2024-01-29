@@ -9,6 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: black;
         }
         .container {
             display: flex;
@@ -17,8 +18,9 @@
             padding: 20px;
             margin: 20px;
             border: 1px solid #ccc;
+            color: #161b22;
             border-radius: 5px;
-            background-color: #f2f2f2;
+            background-color: #3b4655;
         }
         h1 {
             font-size: 2rem;
@@ -34,6 +36,8 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             font-size: 1rem;
+            background-color: #161b22;
+            
         }
         label {
             display: block;
@@ -47,10 +51,11 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             font-size: 1rem;
+            background-color: #ffffff;
         }
         button {
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #161b22;
             color: #fff;
             border: none;
             border-radius: 5px;
@@ -58,7 +63,7 @@
             cursor: pointer;
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: #3e5977;
         }
         .result {
             margin-top: 20px;
@@ -69,6 +74,7 @@
             font-size: 1rem;
             white-space: pre-wrap;
         }
+        
     </style>
 </head>
 <body>
@@ -2126,7 +2132,7 @@ zone
 zoo
 </textarea>
         <label for="numberOfWords">Number of words to pick:</label>
-        <input type="number" id="numberOfWords" value="1" min="1">
+        <input type="number" id="numberOfWords" value="12" min="12">
         <button id="randomize">Randomize</button>
         <div class="result" id="result"></div>
     </div>
