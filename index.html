@@ -7,7 +7,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+            margin-left: 20px;
+            margin-top: 150px;
             padding: 0;
             background-color: white;
         }
@@ -27,9 +28,16 @@
             width: 50px;
             margin-right: 10px;
         }
+        .empty{
+            margin: 60px;
+        }
+        
     </style>
 </head>
 <body>
+    <div class="empty">
+        <h1>  </h1>
+    </div>
     <div id="phrases"></div>
     <label for="currentPhraseIndex">Current phrase index:</label>
     <input type="number" id="currentPhraseIndex" min="0" value="0" oninput="updateCurrentPhraseIndex()">
